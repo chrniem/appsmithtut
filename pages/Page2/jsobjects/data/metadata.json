@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6707aef5960aa7675ef09c1a_89bafd1f-06d9-4895-957c-02f4c7bc5e3d",
+  "id": "Page2_data",
+  "unpublishedCollection": {
+    "name": "data",
+    "pageId": "Page2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "todos",
+        "value": "undefined"
+      },
+      {
+        "name": "dummyTodos",
+        "value": "[{\n  title: 'test1',\n  completed: false\n}, {\n  title: 'test2',\n  completed: false\n}, {\n  title: 'test3',\n  completed: false\n}]"
+      }
+    ]
+  }
+}
