@@ -88,9 +88,16 @@
   "dynamicPropertyPathList": [
     {
       "key": "primaryKeys"
+    },
+    {
+      "key": "onItemClick"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onItemClick"
+    }
+  ],
   "enhancements": true,
   "flexVerticalAlignment": "start",
   "gridType": "vertical",
@@ -111,6 +118,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onItemClick": "{{app.updateTodo(currentIndex,{completed:!currentItem.completed})}}",
   "pageSize": 6,
   "parentColumnSpace": 6.42431640625,
   "parentId": "y5bl7teeai",
